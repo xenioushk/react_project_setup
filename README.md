@@ -89,6 +89,37 @@ function Footer(props) {
 export default Footer
 </pre></code>
 
+<h2>Setup Page Routing </h2>
+
+1. Install routing package.
+
+<pre><code>npm install react-router-dom</code></pre>
+
+2. Import it to the Main.js file.
+
+<pre><code>import {BrowserRouter, Routes, Route} from "react-router-dom"</code></pre>
+
+3. Inside the jsx retun statement of Main.js add the following lines of code.
+
+<pre><code>
+<BrowserRouter>
+  <Header />
+    <Routes>
+      <Route path="/" element={<HomeGuest />} />
+      <Route path="/about-us" element={<About />} />
+      <Route path="/our-team" element={<OurTeam />} />
+      <Route path="/terms" element={<Terms />} />
+    </Routes>
+  <Footer />
+</BrowserRouter>
+</code></pre>
+
+4. Convert all "<a " elements to "<Link />" element. Example-
+
+<pre><code><Link to="/our-team" className="mx-1"></pre></code>
+
+5. To keep browser history, make sure <em>webpack.config.js</em> file has the follwing code.
+<pre><code>historyApiFallback: { index: "index.html" },</pre></code>
 
 <h4>Tips </h4>
 
