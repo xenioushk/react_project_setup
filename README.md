@@ -66,3 +66,10 @@ if (module.hot) {
   module.hot.accept()
 }
 </code></pre>
+
+
+<h4>Tips </h4>
+
+<ol>
+  <li>Remove all the "class" attributes by "className". Because "class" is a reserved keyword for JavaScript.</li>
+</ol>
