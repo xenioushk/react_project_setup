@@ -71,7 +71,7 @@ if (module.hot) {
 
 <p>Here goes the sample code for a simple react component.</p>
 
-<pre><code>
+<code><pre>
 import React from "react"
 import ReactDom from "react-dom/client"
 
@@ -87,7 +87,7 @@ function Footer(props) {
   )
 }
 export default Footer
-</pre></code>
+</code></pre>
 
 
 <h4>Tips </h4>
