@@ -2,15 +2,15 @@
 Steps to setup react projects
 
 1. Initialize npm package.json file.
-<code>npm init -y</code>
+<pre><code>npm init -y</code></pre>
 
 2. setup and install 'react' and 'react-dom'
-<code>npm install react react-dom</code>
+<pre><code>npm install react react-dom</code></pre>
 
 3. create a folder called "app". In this folder all the project files will be setup. create a index.html and Main.js file into the "app" folder.
 4. Now, install webpack. Webpack will convert the "jsx" code syntax to regular "javascrript" code.
 
-npm install webpack webpack-cli webpack-dev-server
+<pre><code>npm install webpack webpack-cli webpack-dev-server</code></pre>
 
 5. Next, we need to create a config file called 'webpack.config.js'. Add the following lines of code into the 'webpack.config.js' file.
 
@@ -53,18 +53,16 @@ module.exports = {
 
 6. Now, time to install "babel" packages. 
 
-<code> npm install @babel/core @babel/preset-dev @babel/preset-react babel-loader </code>
+<pre><code>npm install @babel/core @babel/preset-dev @babel/preset-react babel-loader</code></pre>
 
 7. Next, go to the package.json file and add the following line of code to the "scripts" block.
 
-<code>"dev": "webpack serve"</code>
+<pre><code>"dev": "webpack serve"</code></pre>
   
 8. Finally, open the Main.js file and add following lines of code to automate the referesh proecess.
   
-<code>
-  
+<pre><code>
 if (module.hot) {
   module.hot.accept()
 }
-
-</code>
+</code></pre>
