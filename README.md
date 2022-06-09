@@ -121,6 +121,12 @@ export default Footer
 5. To keep browser history, make sure <em>webpack.config.js</em> file has the follwing code.
 <pre><code>historyApiFallback: { index: "index.html" },</pre></code>
 
+
+<h2>Resusable container</h2>
+
+1. using <em>props.children</em> command, we can easily access the contents inside of that component.
+2. we can use any tag to a component(example-wide), and later we can call that using props.wide to get the value.
+
 <h4>Tips </h4>
 
 <p>For jsx, we need change few HTML attributes.<p>
