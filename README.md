@@ -71,23 +71,23 @@ if (module.hot) {
 
 <p>Here goes the sample code for a simple react component.</p>
 
-<code><pre>
+<pre><code>
 import React from "react"
 import ReactDom from "react-dom/client"
 
 function Footer(props) {
   return (
-    <>
+    <div>
       <footer className="border-top text-center small text-muted py-3">
         <p>
           Copyright &copy; 2020. All rights reserved.
         </p>
       </footer>
-    </>
+    </div>
   )
 }
 export default Footer
-</code></pre>
+</pre></code>
 
 
 <h4>Tips </h4>
