@@ -92,6 +92,9 @@ export default Footer
 
 <h4>Tips </h4>
 
+<p>For jsx, we need change few HTML attributes.<p>
 <ol>
-  <li>Remove all the "class" attributes by "className". Because "class" is a reserved keyword for JavaScript.</li>
+  <li>"class" to "className"</li>
+  <li>"autocomplete" to "autoComplete"</li>  
+  <li>"for" to "htmlFor"</li>
 </ol>
